@@ -15,6 +15,7 @@ public class SetUp {
 
 	public static WebDriver driver;
 	
+	//methode Before
 	@Before
 	public void initial() {
 		driver = DriverMnager.lancer_chrome();	
